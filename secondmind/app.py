@@ -13,11 +13,9 @@ console = Console()
 def parse_note(raw_note):
     """
     Parse a raw note string into its components: note text, tags, and due date.
-
     Args:
         raw_note (str): A line of note text possibly containing tags and a due date, e.g.
         "Buy milk #groceries [due:2025-08-01]".
-
     Returns:
         dict: Contains 'note'(str), 'tags'(list), and 'due_date' (str or None)
     """
@@ -144,7 +142,7 @@ def show_due_alerts():
                 due_date = datetime.strptime(due_str, "%Y-%m-%d").date()
 
                 if due_date < today:
-                    overdue, append(due_date)
+                    overdue.append(due_date)
 
                 elif due_date == today:
                     due_today.append(due_date)
@@ -276,7 +274,7 @@ def main():
                     print(f"{idx}. {note}")
 
                 edit_choice = int(
-                    input(f"Choose the number of the note you want to edit: ")
+                    input("Choose the number of the note you want to edit: ")
                 )
                 if 1 <= edit_choice <= len(saved_notes):
                     original = saved_notes[edit_choice - 1]
@@ -485,7 +483,7 @@ def main():
                 print(f"Imported {len(notes)} notes from {user}_notes_export.json")
 
             except FileNotFoundError:
-                print(f"No export file found.")
+                print("No export file found.")
             except json.JSONDecodeError:
                 console.print("[bold red]Invalid JSON format.[/bold red]")
 
