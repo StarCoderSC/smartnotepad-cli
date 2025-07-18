@@ -1,0 +1,5 @@
+users.txt
+notes_*.txt
+*.pyc
+__pycache__/
+venv/
