@@ -23,13 +23,21 @@ Perfect for developers, researchers, or anyone who prefers quick terminal-based 
 ## 📁 Project Structure
 
 secondmind-cli/
+
 ├── secondmind/ # Main application package
+
 │ ├── init.py
+
 │ └── app.py # Main CLI logic
+
 ├── users.txt # Stores user credentials (SHA-256 hashed)
+
 ├── sample_data/ # Optional example files
+
 ├── README.md
+
 ├── .gitignore
+
 └── requirements.txt
 
 
@@ -68,7 +76,7 @@ secondmind-cli/
 1. **Clone this repo**
 
    ```bash
-   git clone https://github.com/yourusername/secondmind-cli.git
+   git clone https://github.com/StarCoderSC/secondmind-cli.git
    cd secondmind-cli
 
     Create a virtual environment (optional but recommended)
