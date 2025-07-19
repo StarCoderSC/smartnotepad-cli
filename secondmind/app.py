@@ -78,7 +78,7 @@ def register_user():
         pass
 
     # Save new user
-    with open("users.txt", "w") as file:
+    with open("users.txt", "a") as file:
         file.write(f"{username}:{hashed_pw}\n")
     console.print(
         f"User [bold green]'{username}'[/bold green] registered successfully!"
