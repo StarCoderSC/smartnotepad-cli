@@ -167,7 +167,7 @@ def show_due_alerts():
 
 def main():
     console.print(
-        "[bold cyan]Welcome to StarCoderSecondMind Secure Notepad[/bold cyan]\n"
+        "[bold cyan]Welcome to StarCoder Secure Notepad[/bold cyan]\n"
     )
 
     global user, notes_files
@@ -200,7 +200,7 @@ def main():
 
     while True:
         panel = Panel.fit(
-            "[bold cyan]Welcome to StarCoderSecondMind CLI[/bold cyan]🚀\n\n"
+            "[bold cyan]Welcome to SmartNotepad CLI[/bold cyan]🚀\n\n"
             "[bold yellow]1.[/bold yellow]✍ Write a note\n"
             "[bold yellow]2.[/bold yellow]📖 View Saved notes\n"
             "[bold yellow]3.[/bold yellow]✏️ Edit a note\n"

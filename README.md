@@ -1,4 +1,4 @@
-# SecondMind CLI - A Smart, Secure Notes CLI
+# SmartNotepad CLI - A Smart, Secure Notes CLI
 
 > "For Coders who take notes like developers."
 > _Built with ❤️ by StarCoder
@@ -7,7 +7,7 @@
 
 ## 🚀 Overview
 
-SecondMind CLI is a feature-rich command-line notepad that lets you:
+SmartNotepad CLI is a feature-rich command-line notepad that lets you:
 
 - ✍️ Write, edit, search, and delete notes
 - 🏷️ Tag and organize your thoughts
@@ -22,9 +22,9 @@ Perfect for developers, researchers, or anyone who prefers quick terminal-based 
 
 ## 📁 Project Structure
 
-secondmind-cli/
+smartnotepad-cli/
 
-├── secondmind/ # Main application package
+├── smartnotepad/ # Main application package
 
 │ ├── init.py
 
@@ -76,7 +76,7 @@ secondmind-cli/
 1. **Clone this repo**
 
    ```bash
-   git clone https://github.com/StarCoderSC/secondmind-cli.git
+   git clone https://github.com/StarCoderSC/smartnotepad-cli.git
    cd secondmind-cli
 
     Create a virtual environment (optional but recommended)
@@ -102,7 +102,7 @@ pip install rich
 
 Run the CLI:
 
-python -m secondmind.app
+python -m smartnotepad.app
 
 You'll be prompted to login or register. From there, enjoy a powerful, stylish CLI to manage your thoughts!
 🧪 Sample Note Syntax
