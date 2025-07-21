@@ -77,7 +77,7 @@ smartnotepad-cli/
 
    ```bash
    git clone https://github.com/StarCoderSC/smartnotepad-cli.git
-   cd secondmind-cli
+   cd smartnotepad-cli
 
     Create a virtual environment (optional but recommended)
 

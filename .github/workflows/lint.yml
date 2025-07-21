@@ -33,6 +33,6 @@ jobs:
 
     - name: 🎨 Check Black formatting
       run: |
-        black --check secondmind
+        black --check smartnotepad
 
 
