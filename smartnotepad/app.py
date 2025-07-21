@@ -166,9 +166,7 @@ def show_due_alerts():
 
 
 def main():
-    console.print(
-        "[bold cyan]Welcome to StarCoder Secure Notepad[/bold cyan]\n"
-    )
+    console.print("[bold cyan]Welcome to StarCoder Secure Notepad[/bold cyan]\n")
 
     global user, notes_files
     user = None
